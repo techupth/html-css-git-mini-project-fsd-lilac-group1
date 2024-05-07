@@ -26,30 +26,34 @@
   <body>
     <!-- Section 1: Saint -->
     <section id="header">
-      <div class="box-border m-0 w-full">
-        <section class="res-hero-section h-screen bg-blue-50">
+      <div class="con-hero xl:box-border xl:m-0 xl:w-full">
+        <section class="res-hero-section xl:w-full xl:h-screen bg-blue-50">
           <nav
-            class="res-nav flex justify-between items-center px-9 py-5 mx-28 max-sm:justify-start"
+            class="xl:flex xl:justify-between xl:items-center xl:px-9 xl:py-5 xl:mx-28"
           >
-            <div class="flex space-x-6 justify-between">
-              <!-- Logo -->
-              <div class="flex">
-                <img
-                  src="./img/Logo.png"
-                  alt="Logo"
-                  class="res-logo-img mr-2 w-52 h-16"
-                />
+            <div class="res-nav">
+              <div class="xl:flex xl:space-x-6 xl:justify-between">
+                <!-- Logo -->
+                <div class="flex">
+                  <img
+                    src="./img/Logo.png"
+                    alt="Logo"
+                    class="res-logo-img xl:mr-2 xl:w-52 xl:h-16"
+                  />
+                </div>
+              </div>
+
+              <div class="menu-logo-margin">
+                <div>
+                  <ion-icon class="menu-logo" name="menu-sharp"></ion-icon>
+                </div>
               </div>
             </div>
 
-            <div>
-              <span
-                ><ion-icon class="menu-logo" name="menu-sharp"></ion-icon
-              ></span>
-            </div>
-
             <!-- Navigation links -->
-            <div class="nav-hidden flex space-x-6 justify-between items-center">
+            <div
+              class="nav-hidden xl:flex xl:space-x-6 xl:justify-between xl:items-center"
+            >
               <a
                 href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
                 target="_blank"
@@ -75,13 +79,15 @@
               <!-- Icon for mobile menu -->
             </button>
           </nav>
-          <main class="res-main flex items-center px-20">
+          <main class="res-main flex xl:items-center xl:px-20">
             <!-- Infomation-Hero -->
-            <div class="res-info-hero px-20 w-6/12 mt-16 max-[375px]:w-full">
-              <p class="text-sky-600">CREATIVE AGENCY ____</p>
+            <div
+              class="res-info-hero xl:px-20 xl:w-6/12 xl:mt-16 max-[375px]:w-full"
+            >
+              <p class="mt-20 xl:text-sky-600">CREATIVE AGENCY 👨‍💻</p>
               <div class="mt-2">
-                <h1 class="text-5xl">We are here to give</h1>
-                <h1 class="text-5xl">the best service</h1>
+                <h1 class="xl:text-5xl">We are here to give</h1>
+                <h1 class="xl:text-5xl">the best service</h1>
               </div>
               <div class="mt-5">
                 <p class="text-slate-400">
@@ -90,21 +96,21 @@
                   template
                 </p>
               </div>
-              <div class="flex items-center mt-5 gap-6">
+              <div class="start-watch flex xl:items-center xl:mt-5 xl:gap-6">
                 <button
-                  class="text-white py-3 px-6 bg-blue-600 hover:bg-blue-600 rounded"
+                  class="start-btn text-white py-3 px-6 bg-blue-600 hover:bg-blue-400 rounded-3xl"
                 >
                   Get Started
                 </button>
-                <div class="flex items-center gap-2">
+                <div class="flex items-center gap-14 xl:items-center xl:gap-2">
                   <span><ion-icon name="play" class="icon"></ion-icon></span>
-                  <span><p>Watch Video</p></span>
+                  <span class="watch-text"><p>Watch Video</p></span>
                 </div>
               </div>
               <div class="res-animation delivered-meals mt-10">
                 <div class="box box-explore card">
                   <div class="content">
-                    <p class="uppercase text-3xl">100,000 +</p>
+                    <p class="uppercase xl:text-3xl">100,000 +</p>
                     <p class="uppercase">
                       Enhances the workflow for managers, Double their growth.
                     </p>
@@ -123,10 +129,10 @@
               </div>
             </div>
             <!-- IMG Hero -->
-            <div class="res-img-div w-6/12 px-20">
+            <div class="res-img-div xl:w-6/12 xl:px-20">
               <div class="hero-pic">
                 <img
-                  class="res-hero-pic w-445 h-614 max-[375px]:w-445 max-[375px]:h-614"
+                  class="res-hero-pic xl:w-445 xl:h-614 max-[375px]:w-445 max-[375px]:h-614"
                   src="./img/Mask Group.png"
                 />
                 <div>

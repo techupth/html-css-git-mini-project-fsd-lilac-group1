@@ -189,27 +189,42 @@
 }
 
 @media only screen and (max-width: 375px) {
+  #header {
+    width: 1440px;
+  }
+  .con-hero {
+    width: 1440px;
+  }
+
   .nav-hidden {
     display: none;
   }
 
   .res-nav {
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-between;
     margin: 0px;
-    padding: 0px;
+    padding: 20px;
   }
 
   .res-logo-img {
-    width: 150px;
-    height: 50px;
+    width: 500px;
+    height: 150px;
   }
 
   .menu-logo {
+    width: 400px;
+    height: 120px;
     opacity: 1;
   }
+
+  .menu-logo-margin {
+    margin-right: -100px;
+  }
   .res-hero-section {
-    height: auto;
+    width: 1440px;
+    height: 2000px;
   }
   .res-main {
     flex-direction: column;
@@ -220,24 +235,45 @@
   .res-info-hero {
     margin-top: 5px;
     width: 100%;
-    padding: 5px;
+    padding: 0 0 0 50px;
   }
 
   .res-info-hero p {
-    font-size: 10px;
+    font-size: 50px;
   }
-
   .res-info-hero h1 {
-    font-size: 16px;
+    font-size: 150px;
   }
 
+  .start-watch {
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    gap: 100px;
+  }
+
+  .start-btn {
+    width: 600px;
+    height: 150px;
+    font-size: 60px;
+  }
+
+  .icon {
+    width: 100px;
+    height: 100px;
+  }
+
+  .watch-text p {
+    font-size: 60px;
+  }
   .res-img-div {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
-    height: 200px;
+    width: 1440px;
+    height: 1000px;
     padding: 0;
+    margin-top: -300px;
   }
 
   .res-hero-pic img {
@@ -251,6 +287,66 @@
   }
 
   .res-animation {
-    display: none;
+    opacity: 0;
   }
+
+  /**************************/
+  /* FEATURED IN SECTION */
+  /**************************/
+
+  .section-featured {
+    padding: 48px 0 32px 0;
+  }
+
+  .heading-featured-in {
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 24px;
+    color: #888;
+  }
+
+  .logos {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .logos img {
+    height: 36px;
+    width: auto;
+    filter: brightness(0);
+    opacity: 50%;
+    margin-top: 50px;
+  }
+
+  /* .content {
+    position: absolute;
+    width: 40%;
+    left: 20%;
+    color: white;
+    text-transform: capitalize;
+    transition: 0.5s;
+    opacity: 0;
+  }
+
+  .card .content {
+    opacity: 1;
+    padding: 20px;
+    width: 1000px;
+    height: 170px;
+    border: 3px solid #000;
+    background-color: rgb(255, 255, 255);
+    color: #228be6;
+    font-size: 20px;
+  }
+
+  .section-feature {
+    width: 1400px;
+  }
+
+  .logos-slide {
+    display: none;
+  } */
 }
