@@ -654,31 +654,35 @@
     >
       <!-- Coding Section 7 -->
       <div
-        class="container flex flex-col justify-center items-center w-full max-[375px]:w-[375px]"
+        class="container flex flex-col justify-center items-center w-full max-[375px]:flex max-[375px]:flex-col"
       >
-        <div class="item-1 flex flex-row justify-center items-center">
+        <div
+          class="item-1 flex flex-row justify-center items-center max-[375px]:flex max-[375px]:flex-col"
+        >
           <div class="item-1-1">
-            <div class="item-1-1-1 flex">
+            <div class="item-1-1-1 flex max-[375px]:pl-[20px]">
               <img
                 src="./picture/pic-logo1.png"
                 width="56px"
                 height="56px"
                 alt=""
               />
-              <h1 class="text-[24px] font-[500px] text-[#0B0757] ml-[10px]">
+              <h1
+                class="text-[24px] font-[500px] text-[#0B0757] ml-[10px] max-[375px]:font-bold max-[375px]:text-[25px]"
+              >
                 Agencio
               </h1>
             </div>
             <div class="item-1-1-2">
               <p
-                class="text-[16px] font-[400px] w-[350px] h-[90px] text-[#8480AE] mt-[20px]"
+                class="text-[16px] font-[400px] w-[350px] h-[90px] text-[#8480AE] mt-[20px] max-[375px]:pl-[15px] max-[375px]:text-[14px]"
               >
                 Winged moving moveth created for shall and a divide the their
-                days male midst shall hath doesn't won't for. Midst life.Over a
+                days male midst shall hath doesn't won't for. Midst life. Over a
                 great night.
               </p>
             </div>
-            <div class="item-1-1-3 flex gap-[10px]">
+            <div class="item-1-1-3 flex gap-[10px] max-[375px]:pl-[20px]">
               <img
                 src="./picture/pic-facebook.png"
                 alt=""
@@ -704,22 +708,190 @@
                 height="32px"
               />
             </div>
+
+            <!--------------------------------------------------------------------------------------------  -->
+            <div
+              class="dropdown-1 relative inline-block text-left w-[350px] mt-[20px] min-[375px]:hidden"
+            >
+              <div class="group">
+                <button
+                  type="button"
+                  class="flex justify-between items-center w-full px-4 py-2 text-sm font-medium text-[#0B0757] text-[20px] bg-white focus:outline-none"
+                >
+                  <span>Features</span>
+                  <!-- Dropdown arrow -->
+                  <svg
+                    class="w-4 h-4 ml-2 -mr-1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path fill-rule="evenodd" d="M10 12l-5-5h10l-5 5z" />
+                  </svg>
+                </button>
+
+                <!-- Dropdown menu -->
+                <div
+                  class="absolute left-0 w-50 mt-1 origin-top-left bg-white divide-y divide-gray-100 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-300 z-30"
+                >
+                  <div class="py-1">
+                    <a
+                      href="#"
+                      class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                      >Analytic</a
+                    >
+                    <a
+                      href="#"
+                      class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                      >Activity</a
+                    >
+                    <a
+                      href="#"
+                      class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                      >Influencer</a
+                    >
+                    <a
+                      href="#"
+                      class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                      >Publishing</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <hr class="solid pb-[10px]" />
+            </div>
+            <!--------------------------------------------------------------------------------------------  -->
+            <div
+              class="dropdown-2 relative inline-block text-left w-[350px] mt-[20px] min-[375px]:hidden"
+            >
+              <div class="group">
+                <button
+                  type="button"
+                  class="flex justify-between items-center w-full px-4 py-2 text-sm font-medium text-[#0B0757] text-[20px] bg-white focus:outline-none"
+                >
+                  <span>About</span>
+                  <!-- Dropdown arrow -->
+                  <svg
+                    class="w-4 h-4 ml-2 -mr-1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path fill-rule="evenodd" d="M10 12l-5-5h10l-5 5z" />
+                  </svg>
+                </button>
+
+                <!-- Dropdown menu -->
+                <div
+                  class="absolute left-0 w-50 mt-1 origin-top-left bg-white divide-y divide-gray-100 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-300 z-30"
+                >
+                  <div class="py-1">
+                    <a
+                      href="#"
+                      class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                      >Blog</a
+                    >
+                    <a
+                      href="#"
+                      class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                      >Pricing</a
+                    >
+                    <a
+                      href="#"
+                      class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                      >Company</a
+                    >
+                    <a
+                      href="#"
+                      class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                      >Careers</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <hr class="solid pb-[10px]" />
+            </div>
+            <!--------------------------------------------------------------------------------------------  -->
+            <div
+              class="dropdown-3 relative inline-block text-left w-[350px] mt-[20px] min-[375px]:hidden"
+            >
+              <div class="group">
+                <button
+                  type="button"
+                  class="flex justify-between items-center w-full px-4 py-2 text-sm font-medium text-[#0B0757] text-[20px] bg-white focus:outline-none"
+                >
+                  <span>Resources</span>
+                  <!-- Dropdown arrow -->
+                  <svg
+                    class="w-4 h-4 ml-2 -mr-1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path fill-rule="evenodd" d="M10 12l-5-5h10l-5 5z" />
+                  </svg>
+                </button>
+
+                <!-- Dropdown menu -->
+                <div
+                  class="absolute left-0 w-50 mt-1 origin-top-left bg-white divide-y divide-gray-100 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-300 z-30"
+                >
+                  <div class="py-1">
+                    <a
+                      href="#"
+                      class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                      >Application Security</a
+                    >
+                    <a
+                      href="#"
+                      class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                      >Software Policy</a
+                    >
+                    <a
+                      href="#"
+                      class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                      >Supply Chain</a
+                    >
+                    <a
+                      href="#"
+                      class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                      >Manage Reputation</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <hr class="solid pb-[10px]" />
+            </div>
+            <h1
+              class="min-[375px]:hidden text-center text-[#8480AE] text-[18px] pt-[10px]"
+            >
+              Copyright ©2020 Agencio
+            </h1>
+            <!---------------------------------------------------------------------------------------------->
+
+            <!---------------------------------------------------------------------------------------------->
           </div>
-          <div class="item-1-2 m-16 flex flex-col gap-[15px]">
+          <div
+            class="item-1-2 m-16 flex flex-col gap-[15px] max-[375px]:hidden"
+          >
             <h1 class="text-[24px] font-[500px] text-[#0B0757]">Features</h1>
             <p class="text-[16px] font-[400px] text-[#8480AE]">Analytic</p>
             <p class="text-[16px] font-[400px] text-[#8480AE]">Activity</p>
             <p class="text-[16px] font-[400px] text-[#8480AE]">Influencer</p>
             <p class="text-[16px] font-[400px] text-[#8480AE]">Publishing</p>
           </div>
-          <div class="item-1-3 m-16 flex flex-col gap-[15px]">
+          <div
+            class="item-1-3 m-16 flex flex-col gap-[15px] max-[375px]:hidden"
+          >
             <h1 class="text-[24px] font-[500px] text-[#0B0757]">About</h1>
             <p class="text-[16px] font-[400px] text-[#8480AE]">Blog</p>
             <p class="text-[16px] font-[400px] text-[#8480AE]">Pricing</p>
             <p class="text-[16px] font-[400px] text-[#8480AE]">Company</p>
             <p class="text-[16px] font-[400px] text-[#8480AE]">Careers</p>
           </div>
-          <div class="item-1-4 m-16 flex flex-col gap-[15px]">
+          <div
+            class="item-1-4 m-16 flex flex-col gap-[15px] max-[375px]:hidden"
+          >
             <h1 class="text-[24px] font-[500px] text-[#0B0757]">Resources</h1>
             <p class="text-[16px] font-[400px] text-[#8480AE]">
               Application Security
@@ -734,7 +906,7 @@
           </div>
         </div>
         <div
-          class="item-2 w-[1110px] flex flex-col gap-[20px] border-t border-[#8480AE4D] border-solid"
+          class="item-2 w-[1110px] flex flex-col gap-[20px] border-t border-[#8480AE4D] border-solid max-[375px]:hidden"
         >
           <p
             class="text-[16px] font-[400px] text-[#0B075733] text-center mb-[25px] pt-[20px]"
