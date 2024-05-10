@@ -190,10 +190,10 @@
 
 @media only screen and (max-width: 375px) {
   #header {
-    width: 375px;
+    width: 100vw;
   }
   .con-hero {
-    width: 375px;
+    width: 100vw;
   }
 
   .nav-hidden {
@@ -301,16 +301,21 @@
     height: 150px;
   }
 
+  .user-pics {
+    /* position: absolute; */
+    right: 300px;
+  }
+
   .user-pic {
     position: absolute;
-    top: 170px;
-    right: 190px;
+    top: 200px;
+    right: 200px;
     width: 120px;
     height: 180px;
   }
   .user-pic-icon {
     position: absolute;
-    bottom: 130px;
+    bottom: 100px;
     right: 190px;
     width: 50px;
     height: 50px;
@@ -379,4 +384,27 @@
   .logos-slide {
     display: none;
   } */
+}
+
+@media only screen and (min-width: 1450px) {
+  .hero-pic {
+    position: relative;
+  }
+
+  .real-time-user {
+    position: absolute;
+    bottom: 320px;
+    left: 330px;
+  }
+
+  .user-pic {
+    position: absolute;
+    bottom: -40px;
+    right: 930px;
+  }
+  .user-pic-icon {
+    position: absolute;
+    bottom: 230px;
+    right: 930px;
+  }
 }
