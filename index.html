@@ -24,11 +24,11 @@
   </head>
   <body class="w-screen flex flex-col items-center max-sm:items-start">
     <!-- Section 1: Saint -->
-    <section id="header">
+    <header id="header">
       <div class="p-0 m-0 con-hero xl:box-border xl:m-0 xl:w-full">
         <section class="res-hero-section xl:w-full xl:h-screen bg-blue-50">
           <nav
-            class="xl:flex xl:justify-between xl:items-center xl:px-9 xl:py-5 xl:mx-28"
+            class="res-navs xl:flex xl:justify-between xl:items-center xl:px-9 xl:py-5 xl:mx-28"
           >
             <div class="res-nav">
               <div class="xl:flex xl:space-x-6 xl:justify-between">
@@ -51,7 +51,7 @@
 
             <!-- Navigation links -->
             <div
-              class="nav-hidden xl:flex xl:space-x-6 xl:justify-between xl:items-center"
+              class="nav-menu nav-hidden xl:flex xl:space-x-6 xl:justify-between xl:items-center"
             >
               <a target="_blank" href="#" class="hover:text-blue-300">Home</a>
               <a href="#" class="hover:text-blue-300">Category</a>
@@ -62,7 +62,7 @@
               <!-- Create Account button -->
               <a
                 href="#"
-                class="hidden md:block py-2 px-4 bg-yellow-500 hover:bg-blue-600 rounded"
+                class="btn-create-acc hidden md:block py-2 px-4 bg-yellow-500 hover:bg-blue-600 rounded"
                 >Create Account</a
               >
             </div>
@@ -72,7 +72,7 @@
               <!-- Icon for mobile menu -->
             </button>
           </nav>
-          <main class="res-main flex xl:items-center xl:px-20">
+          <main class="res-main flex xl:items-start xl:px-20">
             <!-- Infomation-Hero -->
             <div
               class="res-info-hero xl:px-20 xl:w-6/12 xl:mt-16 max-[375px]:w-full"
@@ -102,24 +102,26 @@
                   <span class="watch-text"><p>Watch Video</p></span>
                 </div>
               </div>
-              <div class="res-animation delivered-meals mt-10">
-                <div class="box box-explore card">
-                  <div class="content">
-                    <p class="uppercase xl:text-3xl">100,000 +</p>
-                    <p class="uppercase">
-                      Enhances the workflow for managers, Double their growth.
-                    </p>
-                    <p>DF Park</p>
-                    <p>CEO OF AGENCIO</p>
-                  </div>
-                  <a href="#">
-                    <div class="delivered-imgs">
-                      <img
-                        src="img/customers/customer-6.jpg"
-                        alt="Customer photo"
-                      />
+              <div class="animation-hidden">
+                <div class="res-animation delivered-meals mt-10">
+                  <div class="box box-explore card">
+                    <div class="content">
+                      <p class="uppercase xl:text-3xl">100,000 +</p>
+                      <p class="uppercase">
+                        Enhances the workflow for managers, Double their growth.
+                      </p>
+                      <p>DF Park</p>
+                      <p>CEO OF AGENCIO</p>
                     </div>
-                  </a>
+                    <a href="#">
+                      <div class="delivered-imgs">
+                        <img
+                          src="img/customers/customer-6.jpg"
+                          alt="Customer photo"
+                        />
+                      </div>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -127,7 +129,7 @@
             <div class="res-img-div xl:w-6/12 xl:px-20">
               <div class="hero-pic">
                 <img
-                  class="res-hero-pic xl:w-445 xl:h-614 max-[375px]:w-445 max-[375px]:h-614"
+                  class="res-hero-pic xl:w-96 xl:h-614 max-[375px]:w-445 max-[375px]:h-614"
                   src="./img/Mask Group.png"
                 />
                 <div>
@@ -227,7 +229,7 @@
         ></script>
       </div>
       <!-- Coding Section 1 -->
-    </section>
+    </header>
 
     <!-- Section 2: Namfon -->
     <section
