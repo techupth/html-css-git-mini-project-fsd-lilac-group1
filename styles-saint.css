@@ -303,15 +303,16 @@
 
   .user-pic {
     position: absolute;
-    top: 170px;
-    right: 190px;
+    top: 300px;
+    right: 255px;
     width: 120px;
     height: 180px;
   }
   .user-pic-icon {
     position: absolute;
-    bottom: 130px;
-    right: 190px;
+    bottom: 160px;
+    right: 245px;
+    left: 75px;
     width: 50px;
     height: 50px;
   }
