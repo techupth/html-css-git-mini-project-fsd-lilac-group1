@@ -816,26 +816,16 @@
 
   .user-pic {
     position: absolute;
-<<<<<<< HEAD
-    top: 200px;
-    right: 200px;
-=======
-    top: 300px;
-    right: 255px;
->>>>>>> Saint/Headers
+    /* top: 300px;
+    right: 255px; */
     width: 120px;
     height: 180px;
   }
   .user-pic-icon {
     position: absolute;
-<<<<<<< HEAD
-    bottom: 100px;
-    right: 190px;
-=======
-    bottom: 160px;
+    /* bottom: 160px; */
     right: 245px;
-    left: 75px;
->>>>>>> Saint/Headers
+    left: 20px;
     width: 50px;
     height: 50px;
   }
