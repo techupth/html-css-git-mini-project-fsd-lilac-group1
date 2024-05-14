@@ -270,15 +270,23 @@
     <!-- Section 2: Namfon -->
     <section
       id="services"
-      class="w-[1440px] h-[626px] relative flex flex-col justify-center py-12 gap-12 pl-40 max-sm:h-fit max-sm:gap-9 max-sm:px-4"
+      class="h-[626px] relative flex flex-col justify-center py-12 gap-12 pl-36 max-sm:h-fit max-sm:gap-9 max-sm:px-4"
     >
       <img
-        src="./image-service/dots2.png"
+        src="./image-service/dots.png"
         class="decorate absolute left-[1342px] top-[250px] max-sm:hidden"
       />
       <img
         src="./image-service/dots.png"
+        class="decorate absolute left-[1408px] top-[250px] max-sm:hidden"
+      />
+      <img
+        src="./image-service/dots.png"
         class="decorate absolute left-[1381px] top-[312px] max-sm:hidden"
+      />
+      <img
+        src="./image-service/dots.png"
+        class="decorate absolute left-[1442px] top-[312px] max-sm:hidden"
       />
       <h1
         class="font-medium text-5xl text-[#0B0757] leading-[3.5rem] relative max-sm:text-4xl max-sm:leading-10"
@@ -420,246 +428,187 @@
 
     <!-- Section 4: Tah -->
     <section id="pricing">
-      <!-- Coding Section 4 -->
-      <div id="container-sec4">
-        <div id="tah-box1">
-          <div
-            id="item-1-sec4"
-            class="text-[#8480AE] text-[24px] text-center font-normal max-[375px]:text-[20px] mt-[100px]"
-          >
+      <div id="tah-container" class="flex justify-center items-center">
+        <div
+          id="tah-box1"
+          class="flex flex-col justify-center items-center max-[375px]:left-0 max-[375px]:top-16"
+        >
+          <div id="tah-item-1" class="text-gray-500 text-[24px]">
             Price Plan
           </div>
           <div
-            id="item-2-sec4"
-            class="text-center text-[48px] text-[#0B0757] font-medium max-[375px]:flex flex-col mb-[83px]"
+            id="tah-item-2"
+            class="text-center text-[48px] text-blue-950 font-medium max-[375px]:flex flex-col"
           >
-            <div class="max-[375px]:flex flex-col max-[375px]:text-[36px]">
-              <span class="max-[375px]:text-[36px]">No ExTra&nbsp;</span
-              ><span> Charges!Choose</span>
+            <div class="flex max-[375px]:flex-col">
+              <span>No ExTra&nbsp;</span><span> Charges!Choose</span>
             </div>
-            <span class="max-[375px]:text-[36px]">Your Plan.</span>
+            <span>Your Plan.</span>
           </div>
-          <div
-            id="table-sec4 "
-            class="flex justify-center items-center max-[375px]:justify-start max-[375px]:ml-[18px]"
-          >
-            <div>
-              <table id="item-3-sec4" class="text-center">
-                <tr class="">
-                  <td
-                    class="border-solid border-b-2 border-r-2 border-t-2 border-l-2"
-                  ></td>
-                  <td
-                    class="border-solid border-b-2 border-r-2 border-t-2 border-l-2 max-[375px]:p-3"
-                  >
-                    <div
-                      class="text-[#FDC46E] text-[36px] font-medium max-[375px]:text-[24px]"
-                    >
-                      $2000
-                    </div>
-                    <div
-                      class="text-gray-500 text-[20px] font-normal max-[375px]:text-[16px]"
-                    >
-                      Regular
-                    </div>
-                  </td>
-                  <td
-                    class="border-solid border-b-2 border-r-2 border-t-2 border-l-2 max-[375px]:p-3"
-                  >
-                    <div
-                      class="text-[#00B894] text-[36px] max-[375px]:text-[24px] font-medium"
-                    >
-                      $3000
-                    </div>
-                    <div
-                      class="text-gray-500 text-[20px] font-normal max-[375px]:text-[16px]"
-                    >
-                      Premium
-                    </div>
-                  </td>
-                  <td
-                    class="border-solid border-b-2 border-r-2 border-t-2 border-l-2 max-[375px]:p-3"
-                  >
-                    <div
-                      class="text-[#1374F6] text-[36px] font-medium max-[375px]:text-[24px]"
-                    >
-                      $5000
-                    </div>
-                    <div
-                      class="text-gray-500 text-[20px] font-normal max-[375px]:text-[16px]"
-                    >
-                      Corporate
-                    </div>
-                  </td>
-                </tr>
+          <div id="tah-table" class="border-solid border-2">
+            <table id="tah-item-3" class="text-center">
+              <tr class="">
+                <td class="border-solid border-b-1 border-r-2"></td>
+                <td class="p-4 border-r-2">
+                  <div class="text-orange-300 text-[43px] font-medium">
+                    $2000
+                  </div>
+                  <div class="text-gray-500">Regular</div>
+                </td>
+                <td class="border-r-2">
+                  <div class="text-green-500 text-[43px] font-medium">
+                    $3000
+                  </div>
+                  <div class="text-gray-500">Premium</div>
+                </td>
+                <td>
+                  <div class="text-blue-500 text-[43px] font-medium">$5000</div>
+                  <div class="text-gray-500">Corporate</div>
+                </td>
+              </tr>
 
-                <tr
-                  class="border-solid border-b-2 border-r-2 border-t-2 border-l-2"
-                >
-                  <td
-                    class="p-2 text-gray-500 text-[20px] pr-20 py-6 border-solid border-b-2 border-r-2 border-t-2 border-l-2 max-[375px]:text-[14px]"
+              <tr class="border-t-2">
+                <td class="p-2 text-gray-500 pr-20 border-r-2 py-6">
+                  Full Access
+                </td>
+                <td class="border-r-2 relative">
+                  <img
+                    class="absolute right-[100px] top-[25px]"
+                    src="Frame.png"
+                    alt=""
+                  />
+                </td>
+                <td class="border-r-2 relative">
+                  <img
+                    class="absolute right-[100px] top-[25px]"
+                    src="Frame.png"
+                    alt=""
+                  />
+                </td>
+                <td class="relative">
+                  <img
+                    class="absolute right-[100px] top-[25px]"
+                    src="Frame.jpg"
+                    alt=""
+                  />
+                </td>
+              </tr>
+              <tr class="border-t-2">
+                <td class="p-4 text-gray-500 border-r-2 py-6 pr-20">
+                  Multiple User
+                </td>
+                <td class="border-r-2 relative">
+                  <img
+                    class="absolute right-[100px] top-[25px]"
+                    src="Frame.png"
+                    alt=""
+                  />
+                </td>
+                <td class="border-r-2 relative">
+                  <img
+                    class="absolute right-[100px] top-[25px]"
+                    src="Frame.png"
+                    alt=""
+                  />
+                </td>
+                <td class="relative">
+                  <img
+                    class="absolute right-[100px] top-[25px]"
+                    src="Frame.jpg"
+                    alt=""
+                  />
+                </td>
+              </tr>
+              <tr class="border-t-2 relative">
+                <td class="text-gray-500 border-r-2 py-6 pr-20">Refund</td>
+                <td class="border-r-2 relative">
+                  <img
+                    class="absolute right-[100px] top-[25px]"
+                    src="Frame.png"
+                    alt=""
+                  />
+                </td>
+                <td class="border-r-2 relative">
+                  <img
+                    class="absolute right-[100px] top-[25px]"
+                    src="Frame.jpg"
+                    alt=""
+                  />
+                </td>
+                <td class="relative">
+                  <img
+                    class="absolute right-[100px] top-[25px]"
+                    src="Frame.jpg"
+                    alt=""
+                  />
+                </td>
+              </tr>
+              <tr class="border-t-2 relative">
+                <td class="p-4 text-gray-500 border-r-2 py-6 pr-20">
+                  27/7 Support
+                </td>
+                <td class="border-r-2 relative">
+                  <img
+                    class="absolute right-[100px] top-[25px]"
+                    src="Frame.jpg"
+                    alt=""
+                  />
+                </td>
+                <td class="border-r-2 relative">
+                  <img
+                    class="absolute right-[100px] top-[25px]"
+                    src="Frame.jpg"
+                    alt=""
+                  />
+                </td>
+                <td class="relative">
+                  <img
+                    class="absolute right-[100px] top-[25px]"
+                    src="Frame.jpg"
+                    alt=""
+                  />
+                </td>
+              </tr>
+              <tr class="border-t-2">
+                <td class="border-r-2"></td>
+                <td class="p-4 border-r-2">
+                  <button
+                    class="bg-orange-300 p-3 text-white rounded-md hover:bg-orange-800"
                   >
-                    Full Access
-                  </td>
-                  <td class="border-r-2 relative">
-                    <img
-                      class="absolute right-[110px] top-[24px] max-[375px]:top-[40px] max-[375px]:right-[40px]"
-                      src=".\image-pricing-plan\Frame.png"
-                      alt=""
-                    />
-                  </td>
-                  <td class="border-r-2 relative">
-                    <img
-                      class="absolute right-[110px] top-[24px] max-[375px]:top-[40px] max-[375px]:right-[40px]"
-                      src=".\image-pricing-plan\Frame.png"
-                      alt=""
-                    />
-                  </td>
-                  <td class="relative">
-                    <img
-                      class="absolute right-[110px] top-[24px] max-[375px]:top-[40px] max-[375px]:right-[40px]"
-                      src=".\image-pricing-plan\Frame.jpg"
-                      alt=""
-                    />
-                  </td>
-                </tr>
-                <tr
-                  class="border-solid border-b-2 border-r-2 border-t-2 border-l-2"
-                >
-                  <td
-                    class="p-4 text-[20px] text-gray-500 border-r-2 py-6 pr-20 max-[375px]:text-[16px]"
+                    Choose plan
+                  </button>
+                  <div
+                    class="pt-2 text-[11px] text-gray-400 px-10 max-[375px]:hidden"
                   >
-                    Multiple User
-                  </td>
-                  <td class="border-r-2 relative">
-                    <img
-                      class="absolute right-[110px] top-[24px] max-[375px]:top-[40px] max-[375px]:right-[40px]"
-                      src=".\image-pricing-plan\Frame.png"
-                      alt=""
-                    />
-                  </td>
-                  <td class="border-r-2 relative">
-                    <img
-                      class="absolute right-[110px] top-[24px] max-[375px]:top-[40px] max-[375px]:right-[40px]"
-                      src=".\image-pricing-plan\Frame.png"
-                      alt=""
-                    />
-                  </td>
-                  <td class="relative">
-                    <img
-                      class="absolute right-[110px] top-[24px] max-[375px]:top-[40px] max-[375px]:right-[40px]"
-                      src=".\image-pricing-plan\Frame.jpg"
-                      alt=""
-                    />
-                  </td>
-                </tr>
-                <tr
-                  class="border-solid border-b-2 border-r-2 border-t-2 border-l-2"
-                >
-                  <td
-                    class="text-gray-500 border-r-2 py-6 pr-20 text-[20px] max-[375px]:text-[16px]"
+                    Get your 30 days free trial
+                  </div>
+                </td>
+                <td class="p-2 border-r-2">
+                  <button
+                    class="bg-green-500 p-3 text-white rounded-md hover:bg-green-800"
                   >
-                    Refund
-                  </td>
-                  <td class="border-r-2 relative">
-                    <img
-                      class="absolute right-[110px] top-[24px] max-[375px]:top-[25px] max-[375px]:right-[40px]"
-                      src=".\image-pricing-plan\Frame.png"
-                      alt=""
-                    />
-                  </td>
-                  <td class="border-r-2 relative">
-                    <img
-                      class="absolute right-[110px] top-[24px] max-[375px]:top-[25px] max-[375px]:right-[40px]"
-                      src=".\image-pricing-plan\Frame.jpg"
-                      alt=""
-                    />
-                  </td>
-                  <td class="relative">
-                    <img
-                      class="absolute right-[110px] top-[24px] max-[375px]:top-[25px] max-[375px]:right-[40px]"
-                      src=".\image-pricing-plan\Frame.jpg"
-                      alt=""
-                    />
-                  </td>
-                </tr>
-                <tr
-                  class="border-solid border-b-2 border-r-2 border-t-2 border-l-2"
-                >
-                  <td
-                    class="p-4 text-gray-500 border-r-2 py-6 pr-20 text-[20px] max-[375px]:text-[16px]"
+                    Choose plan
+                  </button>
+                  <p
+                    class="pt-2 text-[11px] text-gray-400 px-10 max-[375px]:hidden"
                   >
-                    27/7 Support
-                  </td>
-                  <td class="border-r-2 relative">
-                    <img
-                      class="absolute right-[110px] top-[24px] max-[375px]:top-[40px] max-[375px]:right-[40px]"
-                      src=".\image-pricing-plan\Frame.jpg"
-                      alt=""
-                    />
-                  </td>
-                  <td class="border-r-2 relative">
-                    <img
-                      class="absolute right-[110px] top-[24px] max-[375px]:top-[40px] max-[375px]:right-[40px]"
-                      src=".\image-pricing-plan\Frame.jpg"
-                      alt=""
-                    />
-                  </td>
-                  <td class="relative">
-                    <img
-                      class="absolute right-[110px] top-[24px] max-[375px]:top-[40px] max-[375px]:right-[40px]"
-                      src=".\image-pricing-plan\Frame.jpg"
-                      alt=""
-                    />
-                  </td>
-                </tr>
-                <tr>
-                  <td class=""></td>
-                  <td
-                    class="p-2 border-solid border-b-2 border-r-2 border-t-2 border-l-2"
+                    Get your 30 days free trial
+                  </p>
+                </td>
+                <td class="p-2">
+                  <button
+                    class="bg-blue-500 p-3 text-white rounded-md hover:bg-blue-800"
                   >
-                    <button
-                      class="bg-[#FDC46E] text-[14px] p-3 text-white rounded-md hover:bg-orange-800 max-[375px]:text-[12px]"
-                    >
-                      Choose plan
-                    </button>
-                    <div
-                      class="pt-2 text-[14px] text-gray-400 px-10 max-[375px]:hidden"
-                    >
-                      Get your 30 days free trial
-                    </div>
-                  </td>
-                  <td
-                    class="p-2 border-solid border-b-2 border-r-2 border-t-2 border-l-2"
+                    Choose plan</button
+                  ><br />
+                  <div
+                    class="pt-2 text-[11px] text-gray-400 px-10 max-[375px]:hidden"
                   >
-                    <button
-                      class="bg-[#00B894] p-3 text-[14px] text-white rounded-md hover:bg-green-800 max-[375px]:text-[12px]"
-                    >
-                      Choose plan
-                    </button>
-                    <p
-                      class="pt-2 text-[14px] text-gray-400 px-10 max-[375px]:hidden"
-                    >
-                      Get your 30 days free trial
-                    </p>
-                  </td>
-                  <td
-                    class="p-2 border-solid border-b-2 border-r-2 border-t-2 border-l-2"
-                  >
-                    <button
-                      class="bg-[#1374F6] text-[14px] p-3 text-white rounded-md hover:bg-blue-800 max-[375px]:text-[12px]"
-                    >
-                      Choose plan</button
-                    ><br />
-                    <div
-                      class="pt-2 text-[14px] text-gray-400 px-10 max-[375px]:hidden"
-                    >
-                      Get your 30 days free trial
-                    </div>
-                  </td>
-                </tr>
-              </table>
-            </div>
+                    Get your 30 days free trial
+                  </div>
+                </td>
+              </tr>
+            </table>
           </div>
         </div>
       </div>
@@ -701,13 +650,13 @@
             wherein let behold over he whose of sea moved called.
           </p>
           <h4
-            class="leading-10 font-bold text-[24px] text-[#FDC46E] w-[153px] h-[56px] top-[523px] absolute z-[2] max-sm:text-[20px] max-sm:top-[280px] max-sm:mt-3 max-sm:ml-7"
+            class="leading-10 font-bold text-[24px] text-[#FDC46E] w-[153px] h-[56px] top-[523px] absolute z-[2] max-sm:text-[20px] max-sm:top-[280px] max-sm:mt-5"
           >
             Jack Smith
           </h4>
 
           <h4
-            class="font-normal text-base leading-7 text-[#8480AE] absolute w-[121px] h-[27px] top-[565px] z-[2] max-sm:text-[14px] max-sm:top-[322px] max-sm:mt-1"
+            class="font-normal text-base leading-7 text-[#8480AE] absolute w-[121px] h-[27px] top-[565px] z-[2] max-sm:text-[14px] max-sm:top-[322px] max-sm:mt-5"
           >
             CEO of DIANO
           </h4>

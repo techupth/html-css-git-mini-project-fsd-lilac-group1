@@ -223,6 +223,29 @@
   }
 }
 
+@media only screen and (min-width: 1450px) {
+  .hero-pic {
+    position: relative;
+  }
+
+  .real-time-user {
+    position: absolute;
+    bottom: 320px;
+    left: 330px;
+  }
+
+  .user-pic {
+    position: absolute;
+    bottom: -40px;
+    right: 930px;
+  }
+  .user-pic-icon {
+    position: absolute;
+    bottom: 230px;
+    right: 930px;
+  }
+}
+
 @media only screen and (max-width: 1279px) {
   #header {
     width: 100vw;
@@ -909,11 +932,11 @@
   .user-pic {
     position: absolute;
     bottom: -40px;
-    right: 930px;
+    right: 620px;
   }
   .user-pic-icon {
     position: absolute;
     bottom: 230px;
-    right: 930px;
+    right: 620px;
   }
 }
